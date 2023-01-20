@@ -3,6 +3,7 @@ import SearchBar from './components/SearchBar';
 import searchImages from './api';
 import ImageList from './components/ImageList';
 import {useState} from 'react';
+import PositionedTooltips from './ToolTip';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <div> <SearchBar onSubmit ={handleSubmit}/></div>
       <div><ImageList images ={images}/></div>
+      <div><PositionedTooltips /></div>
     </div>
   );
 }
