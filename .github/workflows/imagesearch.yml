@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - "./my-image-search-app/**"
+      - "my-image-search-app/**"
 
 defaults:
   run:
-    working-directory: ./my-image-search-app
+    working-directory: my-image-search-app
 
 jobs:
   build:
